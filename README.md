@@ -82,11 +82,11 @@ Importer wymaga osobnej usługi działającej na komputerze lub serwerze. Raz za
 
 ## Podział obowiązków
 
-### Osoba A – CAD i programowanie
+### Osoba Tomasz Trzyna – CAD i programowanie
 
 Odpowiada za konstrukcję mechaniczną oraz logikę systemu: modele przypraw, zarządzanie magazynem, menedżer przepisów, dopasowywanie składników, wykonywanie sekwencji i rejestr własnych komend. Dodatkowo rozwija importer URL.
 
-### Osoba B – Elektronika i programowanie
+### Osoba Mateusz Tymiński – Elektronika i programowanie
 
 Odpowiada za elektronikę, sterowanie silnikiem, RFID, czujniki, LED, trwałą pamięć danych, HTTP API oraz podstawową aplikację i obsługę głosu na telefonie.
 
