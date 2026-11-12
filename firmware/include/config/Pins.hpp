@@ -1,0 +1,8 @@
+//
+// Created by aat on 12.11.2026.
+//
+
+#ifndef SPICECAROUSEL_PINS_HPP
+#define SPICECAROUSEL_PINS_HPP
+
+#endif //SPICECAROUSEL_PINS_HPP
