@@ -1,8 +1,14 @@
-//
-// Created by aat on 12.11.2026.
-//
+#pragma once
+#include <Arduino.h>
 
-#ifndef SPICECAROUSEL_SPICE_HPP
-#define SPICECAROUSEL_SPICE_HPP
+class Spice
+{
+private:
+    int slot;
+    String name;
+public:
+    Spice(int slotNumber, const String& spiceName);
 
-#endif //SPICECAROUSEL_SPICE_HPP
+    int getSlot() const;
+    const String& getName() const;
+};
