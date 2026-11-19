@@ -1,0 +1,28 @@
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.h
+
+# Operating system
+.DS_Store
+Thumbs.db
