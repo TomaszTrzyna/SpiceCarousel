@@ -1,8 +1,17 @@
-//
-// Created by aat on 12.11.2026.
-//
+#pragma once
+#include <Arduino.h>
+#include <vector>
+#include "domain/Spice.hpp"
 
-#ifndef SPICECAROUSEL_INVENTORYMANAGER_HPP
-#define SPICECAROUSEL_INVENTORYMANAGER_HPP
+class InventoryManager {
+private:
+    static constexpr int MAX_SLOTS = 16;
 
-#endif //SPICECAROUSEL_INVENTORYMANAGER_HPP
+    std::vector<Spice> spices;
+
+public:
+    bool addSpice(int slot, const String& name);
+    int findSlotByName(const String& name) const;
+    int getCount() const;
+    bool isSlotOccupied(int slot) const;
+};
